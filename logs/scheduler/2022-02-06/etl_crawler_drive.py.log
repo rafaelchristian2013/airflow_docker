@@ -1,0 +1,366 @@
+[2022-02-06 16:41:44,144] {processor.py:163} INFO - Started process (PID=598) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:41:44,145] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:41:44,145] {logging_mixin.py:109} INFO - [2022-02-06 16:41:44,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:41:44,152] {logging_mixin.py:109} INFO - [2022-02-06 16:41:44,151] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/etl_crawler_drive.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_crawler_drive.py", line 2, in <module>
+    from pydrive.drive import GoogleDrive
+ModuleNotFoundError: No module named 'pydrive'
+[2022-02-06 16:41:44,163] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:41:44,170] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.028 seconds
+[2022-02-06 16:43:23,718] {processor.py:163} INFO - Started process (PID=75) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:43:23,739] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:43:23,740] {logging_mixin.py:109} INFO - [2022-02-06 16:43:23,740] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:43:26,972] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:43:31,844] {logging_mixin.py:109} INFO - [2022-02-06 16:43:31,844] {manager.py:496} INFO - Created Permission View: can edit on DAG:etl_crawler_drive
+[2022-02-06 16:43:31,853] {logging_mixin.py:109} INFO - [2022-02-06 16:43:31,853] {manager.py:496} INFO - Created Permission View: can read on DAG:etl_crawler_drive
+[2022-02-06 16:43:31,854] {logging_mixin.py:109} INFO - [2022-02-06 16:43:31,854] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:43:31,863] {logging_mixin.py:109} INFO - [2022-02-06 16:43:31,863] {dag.py:2415} INFO - Creating ORM DAG for etl_crawler_drive
+[2022-02-06 16:43:32,002] {logging_mixin.py:109} INFO - [2022-02-06 16:43:32,002] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:43:32,018] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 8.304 seconds
+[2022-02-06 16:44:02,804] {processor.py:163} INFO - Started process (PID=166) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:44:02,807] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:44:02,808] {logging_mixin.py:109} INFO - [2022-02-06 16:44:02,808] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:44:03,512] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:44:03,521] {logging_mixin.py:109} INFO - [2022-02-06 16:44:03,520] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:44:03,534] {logging_mixin.py:109} INFO - [2022-02-06 16:44:03,533] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:44:03,540] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.742 seconds
+[2022-02-06 16:44:34,383] {processor.py:163} INFO - Started process (PID=236) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:44:34,384] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:44:34,385] {logging_mixin.py:109} INFO - [2022-02-06 16:44:34,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:44:34,953] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:44:34,959] {logging_mixin.py:109} INFO - [2022-02-06 16:44:34,959] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:44:34,971] {logging_mixin.py:109} INFO - [2022-02-06 16:44:34,971] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:44:34,977] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.596 seconds
+[2022-02-06 16:45:05,530] {processor.py:163} INFO - Started process (PID=305) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:45:05,531] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:45:05,532] {logging_mixin.py:109} INFO - [2022-02-06 16:45:05,532] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:45:06,107] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:45:06,113] {logging_mixin.py:109} INFO - [2022-02-06 16:45:06,113] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:45:06,125] {logging_mixin.py:109} INFO - [2022-02-06 16:45:06,125] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:45:06,132] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.603 seconds
+[2022-02-06 16:45:36,777] {processor.py:163} INFO - Started process (PID=365) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:45:36,778] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:45:36,778] {logging_mixin.py:109} INFO - [2022-02-06 16:45:36,778] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:45:37,366] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:45:37,373] {logging_mixin.py:109} INFO - [2022-02-06 16:45:37,373] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:45:37,384] {logging_mixin.py:109} INFO - [2022-02-06 16:45:37,384] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:45:37,392] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.617 seconds
+[2022-02-06 16:46:07,421] {processor.py:163} INFO - Started process (PID=434) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:46:07,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:46:07,425] {logging_mixin.py:109} INFO - [2022-02-06 16:46:07,425] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:46:08,067] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:46:08,074] {logging_mixin.py:109} INFO - [2022-02-06 16:46:08,074] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:46:08,087] {logging_mixin.py:109} INFO - [2022-02-06 16:46:08,087] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:46:08,094] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.674 seconds
+[2022-02-06 16:46:38,701] {processor.py:163} INFO - Started process (PID=493) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:46:38,702] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:46:38,702] {logging_mixin.py:109} INFO - [2022-02-06 16:46:38,702] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:46:39,281] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:46:39,286] {logging_mixin.py:109} INFO - [2022-02-06 16:46:39,286] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:46:39,298] {logging_mixin.py:109} INFO - [2022-02-06 16:46:39,298] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:46:39,305] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.606 seconds
+[2022-02-06 16:47:09,415] {processor.py:163} INFO - Started process (PID=561) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:47:09,416] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:47:09,416] {logging_mixin.py:109} INFO - [2022-02-06 16:47:09,416] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:47:10,088] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:47:10,096] {logging_mixin.py:109} INFO - [2022-02-06 16:47:10,096] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:47:10,109] {logging_mixin.py:109} INFO - [2022-02-06 16:47:10,109] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:47:10,116] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.703 seconds
+[2022-02-06 16:47:40,757] {processor.py:163} INFO - Started process (PID=620) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:47:40,758] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:47:40,758] {logging_mixin.py:109} INFO - [2022-02-06 16:47:40,758] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:47:41,331] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:47:41,337] {logging_mixin.py:109} INFO - [2022-02-06 16:47:41,337] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:47:41,348] {logging_mixin.py:109} INFO - [2022-02-06 16:47:41,348] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:47:41,356] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.602 seconds
+[2022-02-06 16:48:11,382] {processor.py:163} INFO - Started process (PID=688) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:48:11,385] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:48:11,386] {logging_mixin.py:109} INFO - [2022-02-06 16:48:11,386] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:48:12,029] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:48:12,035] {logging_mixin.py:109} INFO - [2022-02-06 16:48:12,035] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:48:12,047] {logging_mixin.py:109} INFO - [2022-02-06 16:48:12,047] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:48:12,054] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.674 seconds
+[2022-02-06 16:48:42,895] {processor.py:163} INFO - Started process (PID=747) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:48:42,896] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:48:42,896] {logging_mixin.py:109} INFO - [2022-02-06 16:48:42,896] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:48:43,509] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:48:43,515] {logging_mixin.py:109} INFO - [2022-02-06 16:48:43,515] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:48:43,526] {logging_mixin.py:109} INFO - [2022-02-06 16:48:43,526] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:48:43,532] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.639 seconds
+[2022-02-06 16:49:14,215] {processor.py:163} INFO - Started process (PID=815) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:49:14,216] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:49:14,217] {logging_mixin.py:109} INFO - [2022-02-06 16:49:14,217] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:49:14,805] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:49:14,811] {logging_mixin.py:109} INFO - [2022-02-06 16:49:14,811] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:49:14,822] {logging_mixin.py:109} INFO - [2022-02-06 16:49:14,822] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:49:14,831] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.618 seconds
+[2022-02-06 16:49:45,703] {processor.py:163} INFO - Started process (PID=874) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:49:45,705] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:49:45,705] {logging_mixin.py:109} INFO - [2022-02-06 16:49:45,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:49:46,294] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:49:46,300] {logging_mixin.py:109} INFO - [2022-02-06 16:49:46,300] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:49:46,311] {logging_mixin.py:109} INFO - [2022-02-06 16:49:46,311] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:49:46,322] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.622 seconds
+[2022-02-06 16:50:17,182] {processor.py:163} INFO - Started process (PID=943) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:50:17,185] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:50:17,186] {logging_mixin.py:109} INFO - [2022-02-06 16:50:17,186] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:50:17,791] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:50:17,797] {logging_mixin.py:109} INFO - [2022-02-06 16:50:17,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:50:17,809] {logging_mixin.py:109} INFO - [2022-02-06 16:50:17,808] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:50:17,815] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.635 seconds
+[2022-02-06 16:50:48,482] {processor.py:163} INFO - Started process (PID=1003) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:50:48,484] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:50:48,484] {logging_mixin.py:109} INFO - [2022-02-06 16:50:48,484] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:50:49,083] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:50:49,090] {logging_mixin.py:109} INFO - [2022-02-06 16:50:49,089] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:50:49,102] {logging_mixin.py:109} INFO - [2022-02-06 16:50:49,102] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:50:49,125] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.645 seconds
+[2022-02-06 16:51:19,903] {processor.py:163} INFO - Started process (PID=1071) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:51:19,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:51:19,904] {logging_mixin.py:109} INFO - [2022-02-06 16:51:19,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:51:20,483] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:51:20,490] {logging_mixin.py:109} INFO - [2022-02-06 16:51:20,490] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:51:20,503] {logging_mixin.py:109} INFO - [2022-02-06 16:51:20,503] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:51:20,512] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.612 seconds
+[2022-02-06 16:51:51,084] {processor.py:163} INFO - Started process (PID=1140) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:51:51,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:51:51,086] {logging_mixin.py:109} INFO - [2022-02-06 16:51:51,086] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:51:51,720] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:51:51,726] {logging_mixin.py:109} INFO - [2022-02-06 16:51:51,726] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:51:51,737] {logging_mixin.py:109} INFO - [2022-02-06 16:51:51,737] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:51:51,744] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.661 seconds
+[2022-02-06 16:52:22,467] {processor.py:163} INFO - Started process (PID=1200) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:52:22,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:52:22,471] {logging_mixin.py:109} INFO - [2022-02-06 16:52:22,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:52:23,063] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:52:23,069] {logging_mixin.py:109} INFO - [2022-02-06 16:52:23,069] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:52:23,080] {logging_mixin.py:109} INFO - [2022-02-06 16:52:23,080] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:52:23,086] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.621 seconds
+[2022-02-06 16:52:53,177] {processor.py:163} INFO - Started process (PID=1268) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:52:53,178] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:52:53,178] {logging_mixin.py:109} INFO - [2022-02-06 16:52:53,178] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:52:53,758] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:52:53,765] {logging_mixin.py:109} INFO - [2022-02-06 16:52:53,764] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:52:53,776] {logging_mixin.py:109} INFO - [2022-02-06 16:52:53,776] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:52:53,786] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.612 seconds
+[2022-02-06 16:53:24,040] {processor.py:163} INFO - Started process (PID=1328) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:53:24,046] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:53:24,048] {logging_mixin.py:109} INFO - [2022-02-06 16:53:24,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:53:24,648] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:53:24,655] {logging_mixin.py:109} INFO - [2022-02-06 16:53:24,655] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:53:24,668] {logging_mixin.py:109} INFO - [2022-02-06 16:53:24,668] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:53:24,678] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.645 seconds
+[2022-02-06 16:53:54,741] {processor.py:163} INFO - Started process (PID=1396) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:53:54,742] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:53:54,742] {logging_mixin.py:109} INFO - [2022-02-06 16:53:54,742] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:53:55,383] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:53:55,389] {logging_mixin.py:109} INFO - [2022-02-06 16:53:55,389] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:53:55,401] {logging_mixin.py:109} INFO - [2022-02-06 16:53:55,401] {dag.py:2935} INFO - Setting next_dagrun for etl_crawler_drive to 2022-01-23T00:00:00+00:00
+[2022-02-06 16:53:55,411] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.673 seconds
+[2022-02-06 16:54:25,770] {processor.py:163} INFO - Started process (PID=1456) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:54:25,774] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:54:25,774] {logging_mixin.py:109} INFO - [2022-02-06 16:54:25,774] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:54:26,374] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:54:26,380] {logging_mixin.py:109} INFO - [2022-02-06 16:54:26,380] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:54:26,397] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.629 seconds
+[2022-02-06 16:54:56,503] {processor.py:163} INFO - Started process (PID=1528) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:54:56,504] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:54:56,505] {logging_mixin.py:109} INFO - [2022-02-06 16:54:56,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:54:57,175] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:54:57,185] {logging_mixin.py:109} INFO - [2022-02-06 16:54:57,185] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:54:57,209] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.708 seconds
+[2022-02-06 16:55:27,354] {processor.py:163} INFO - Started process (PID=1587) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:55:27,355] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:55:27,356] {logging_mixin.py:109} INFO - [2022-02-06 16:55:27,356] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:55:27,931] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:55:27,937] {logging_mixin.py:109} INFO - [2022-02-06 16:55:27,937] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:55:27,953] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.601 seconds
+[2022-02-06 16:55:57,998] {processor.py:163} INFO - Started process (PID=1652) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:55:58,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 16:55:58,000] {logging_mixin.py:109} INFO - [2022-02-06 16:55:58,000] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:55:58,611] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 16:55:58,617] {logging_mixin.py:109} INFO - [2022-02-06 16:55:58,616] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 16:55:58,634] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.638 seconds
+[2022-02-06 21:41:19,324] {processor.py:163} INFO - Started process (PID=57) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:41:19,326] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:41:19,327] {logging_mixin.py:109} INFO - [2022-02-06 21:41:19,327] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:41:20,868] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:41:20,883] {logging_mixin.py:109} INFO - [2022-02-06 21:41:20,882] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:41:20,919] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 1.598 seconds
+[2022-02-06 21:41:50,978] {processor.py:163} INFO - Started process (PID=125) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:41:50,979] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:41:50,980] {logging_mixin.py:109} INFO - [2022-02-06 21:41:50,980] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:41:51,759] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:41:51,765] {logging_mixin.py:109} INFO - [2022-02-06 21:41:51,764] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:41:51,781] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.804 seconds
+[2022-02-06 21:42:29,027] {processor.py:163} INFO - Started process (PID=52) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:42:29,029] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:42:29,030] {logging_mixin.py:109} INFO - [2022-02-06 21:42:29,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:42:30,646] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:42:30,661] {logging_mixin.py:109} INFO - [2022-02-06 21:42:30,660] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:42:30,705] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 1.682 seconds
+[2022-02-06 21:43:00,834] {processor.py:163} INFO - Started process (PID=124) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:00,835] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:43:00,835] {logging_mixin.py:109} INFO - [2022-02-06 21:43:00,835] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:01,688] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:01,694] {logging_mixin.py:109} INFO - [2022-02-06 21:43:01,694] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:43:01,712] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.880 seconds
+[2022-02-06 21:43:31,879] {processor.py:163} INFO - Started process (PID=183) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:31,884] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:43:31,885] {logging_mixin.py:109} INFO - [2022-02-06 21:43:31,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:32,561] {processor.py:654} INFO - DAG(s) dict_keys(['etl_crawler_drive']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:32,568] {logging_mixin.py:109} INFO - [2022-02-06 21:43:32,568] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:43:32,588] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.714 seconds
+[2022-02-06 21:43:50,805] {processor.py:163} INFO - Started process (PID=235) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:50,806] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:43:50,807] {logging_mixin.py:109} INFO - [2022-02-06 21:43:50,807] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:51,503] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:51,503] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:43:52,756] {logging_mixin.py:109} INFO - [2022-02-06 21:43:52,756] {manager.py:496} INFO - Created Permission View: can edit on DAG:testes_airflow_docker
+[2022-02-06 21:43:52,763] {logging_mixin.py:109} INFO - [2022-02-06 21:43:52,763] {manager.py:496} INFO - Created Permission View: can read on DAG:testes_airflow_docker
+[2022-02-06 21:43:52,763] {logging_mixin.py:109} INFO - [2022-02-06 21:43:52,763] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:43:52,768] {logging_mixin.py:109} INFO - [2022-02-06 21:43:52,768] {dag.py:2415} INFO - Creating ORM DAG for testes_airflow_docker
+[2022-02-06 21:43:52,776] {logging_mixin.py:109} INFO - [2022-02-06 21:43:52,776] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-23T00:00:00+00:00
+[2022-02-06 21:43:52,785] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 1.982 seconds
+[2022-02-06 21:44:22,947] {processor.py:163} INFO - Started process (PID=297) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:44:22,949] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:44:22,949] {logging_mixin.py:109} INFO - [2022-02-06 21:44:22,949] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:44:23,592] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:44:23,599] {logging_mixin.py:109} INFO - [2022-02-06 21:44:23,599] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:44:23,617] {logging_mixin.py:109} INFO - [2022-02-06 21:44:23,617] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-23T00:00:00+00:00
+[2022-02-06 21:44:23,629] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.683 seconds
+[2022-02-06 21:45:46,010] {processor.py:163} INFO - Started process (PID=114) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:45:46,011] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:45:46,012] {logging_mixin.py:109} INFO - [2022-02-06 21:45:46,012] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:45:48,197] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:45:48,204] {logging_mixin.py:109} INFO - [2022-02-06 21:45:48,204] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:45:48,219] {logging_mixin.py:109} INFO - [2022-02-06 21:45:48,219] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-23T00:00:00+00:00
+[2022-02-06 21:45:48,227] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 2.220 seconds
+[2022-02-06 21:46:18,519] {processor.py:163} INFO - Started process (PID=192) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:46:18,520] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:46:18,520] {logging_mixin.py:109} INFO - [2022-02-06 21:46:18,520] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:46:19,179] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:46:19,190] {logging_mixin.py:109} INFO - [2022-02-06 21:46:19,189] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:46:19,209] {logging_mixin.py:109} INFO - [2022-02-06 21:46:19,209] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-23T00:00:00+00:00
+[2022-02-06 21:46:19,232] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.715 seconds
+[2022-02-06 21:46:49,333] {processor.py:163} INFO - Started process (PID=253) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:46:49,334] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:46:49,334] {logging_mixin.py:109} INFO - [2022-02-06 21:46:49,334] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:46:49,971] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:46:49,977] {logging_mixin.py:109} INFO - [2022-02-06 21:46:49,977] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:46:49,989] {logging_mixin.py:109} INFO - [2022-02-06 21:46:49,989] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-23T00:00:00+00:00
+[2022-02-06 21:46:49,996] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.665 seconds
+[2022-02-06 21:48:34,556] {processor.py:163} INFO - Started process (PID=60) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:48:34,556] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:48:34,557] {logging_mixin.py:109} INFO - [2022-02-06 21:48:34,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:48:36,616] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:48:36,623] {logging_mixin.py:109} INFO - [2022-02-06 21:48:36,623] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:48:36,637] {logging_mixin.py:109} INFO - [2022-02-06 21:48:36,637] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-23T00:00:00+00:00
+[2022-02-06 21:48:36,645] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 2.091 seconds
+[2022-02-06 21:49:06,745] {processor.py:163} INFO - Started process (PID=136) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:49:06,746] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:49:06,747] {logging_mixin.py:109} INFO - [2022-02-06 21:49:06,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:49:07,512] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:49:07,519] {logging_mixin.py:109} INFO - [2022-02-06 21:49:07,519] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:49:07,533] {logging_mixin.py:109} INFO - [2022-02-06 21:49:07,533] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-23T00:00:00+00:00
+[2022-02-06 21:49:07,542] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.799 seconds
+[2022-02-06 21:49:37,657] {processor.py:163} INFO - Started process (PID=198) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:49:37,658] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:49:37,658] {logging_mixin.py:109} INFO - [2022-02-06 21:49:37,658] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:49:38,408] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:49:38,416] {logging_mixin.py:109} INFO - [2022-02-06 21:49:38,416] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:49:38,442] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.787 seconds
+[2022-02-06 21:50:08,495] {processor.py:163} INFO - Started process (PID=260) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:50:08,496] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:50:08,496] {logging_mixin.py:109} INFO - [2022-02-06 21:50:08,496] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:50:09,134] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:50:09,141] {logging_mixin.py:109} INFO - [2022-02-06 21:50:09,140] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:50:09,167] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.675 seconds
+[2022-02-06 21:50:39,270] {processor.py:163} INFO - Started process (PID=334) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:50:39,271] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:50:39,272] {logging_mixin.py:109} INFO - [2022-02-06 21:50:39,272] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:50:39,866] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:50:39,872] {logging_mixin.py:109} INFO - [2022-02-06 21:50:39,872] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:50:39,897] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.630 seconds
+[2022-02-06 21:51:10,822] {processor.py:163} INFO - Started process (PID=394) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:51:10,827] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:51:10,829] {logging_mixin.py:109} INFO - [2022-02-06 21:51:10,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:51:11,520] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:51:11,527] {logging_mixin.py:109} INFO - [2022-02-06 21:51:11,526] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:51:11,543] {logging_mixin.py:109} INFO - [2022-02-06 21:51:11,543] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-24T00:00:00+00:00
+[2022-02-06 21:51:11,552] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.736 seconds
+[2022-02-06 21:51:41,987] {processor.py:163} INFO - Started process (PID=462) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:51:41,989] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:51:41,990] {logging_mixin.py:109} INFO - [2022-02-06 21:51:41,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:51:42,663] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:51:42,670] {logging_mixin.py:109} INFO - [2022-02-06 21:51:42,670] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:51:42,685] {logging_mixin.py:109} INFO - [2022-02-06 21:51:42,685] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-25T00:00:00+00:00
+[2022-02-06 21:51:42,692] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.708 seconds
+[2022-02-06 21:52:12,715] {processor.py:163} INFO - Started process (PID=522) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:52:12,716] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:52:12,717] {logging_mixin.py:109} INFO - [2022-02-06 21:52:12,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:52:13,389] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:52:13,396] {logging_mixin.py:109} INFO - [2022-02-06 21:52:13,395] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:52:13,411] {logging_mixin.py:109} INFO - [2022-02-06 21:52:13,411] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-25T00:00:00+00:00
+[2022-02-06 21:52:13,418] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.705 seconds
+[2022-02-06 21:52:28,925] {processor.py:163} INFO - Started process (PID=563) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:52:28,926] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 21:52:28,926] {logging_mixin.py:109} INFO - [2022-02-06 21:52:28,926] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:52:29,646] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 21:52:29,655] {logging_mixin.py:109} INFO - [2022-02-06 21:52:29,655] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 21:52:29,673] {logging_mixin.py:109} INFO - [2022-02-06 21:52:29,673] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-25T00:00:00+00:00
+[2022-02-06 21:52:29,683] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.760 seconds
+[2022-02-06 22:00:52,851] {processor.py:163} INFO - Started process (PID=200) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:00:52,852] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 22:00:52,853] {logging_mixin.py:109} INFO - [2022-02-06 22:00:52,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:00:55,912] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:00:55,925] {logging_mixin.py:109} INFO - [2022-02-06 22:00:55,924] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 22:00:55,951] {logging_mixin.py:109} INFO - [2022-02-06 22:00:55,951] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-25T00:00:00+00:00
+[2022-02-06 22:00:55,963] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 3.114 seconds
+[2022-02-06 22:01:26,844] {processor.py:163} INFO - Started process (PID=268) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:01:26,846] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 22:01:26,847] {logging_mixin.py:109} INFO - [2022-02-06 22:01:26,847] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:01:27,750] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:01:27,757] {logging_mixin.py:109} INFO - [2022-02-06 22:01:27,757] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 22:01:27,770] {logging_mixin.py:109} INFO - [2022-02-06 22:01:27,770] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-25T00:00:00+00:00
+[2022-02-06 22:01:27,776] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.934 seconds
+[2022-02-06 22:01:57,799] {processor.py:163} INFO - Started process (PID=337) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:01:57,800] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 22:01:57,801] {logging_mixin.py:109} INFO - [2022-02-06 22:01:57,800] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:01:58,459] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:01:58,465] {logging_mixin.py:109} INFO - [2022-02-06 22:01:58,465] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 22:01:58,478] {logging_mixin.py:109} INFO - [2022-02-06 22:01:58,478] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-26T00:00:00+00:00
+[2022-02-06 22:01:58,485] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.689 seconds
+[2022-02-06 22:02:29,038] {processor.py:163} INFO - Started process (PID=412) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:02:29,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 22:02:29,040] {logging_mixin.py:109} INFO - [2022-02-06 22:02:29,040] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:02:29,697] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:02:29,704] {logging_mixin.py:109} INFO - [2022-02-06 22:02:29,703] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 22:02:29,718] {logging_mixin.py:109} INFO - [2022-02-06 22:02:29,718] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-27T00:00:00+00:00
+[2022-02-06 22:02:29,724] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.689 seconds
+[2022-02-06 22:02:59,795] {processor.py:163} INFO - Started process (PID=474) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:02:59,796] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 22:02:59,797] {logging_mixin.py:109} INFO - [2022-02-06 22:02:59,797] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:00,464] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:00,471] {logging_mixin.py:109} INFO - [2022-02-06 22:03:00,471] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 22:03:00,487] {logging_mixin.py:109} INFO - [2022-02-06 22:03:00,487] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-27T00:00:00+00:00
+[2022-02-06 22:03:00,494] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.701 seconds
+[2022-02-06 22:03:30,528] {processor.py:163} INFO - Started process (PID=547) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:30,529] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 22:03:30,529] {logging_mixin.py:109} INFO - [2022-02-06 22:03:30,529] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:31,155] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:31,161] {logging_mixin.py:109} INFO - [2022-02-06 22:03:31,161] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 22:03:31,174] {logging_mixin.py:109} INFO - [2022-02-06 22:03:31,174] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-27T00:00:00+00:00
+[2022-02-06 22:03:31,181] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.656 seconds
+[2022-02-06 22:03:35,220] {processor.py:163} INFO - Started process (PID=563) to work on /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:35,221] {processor.py:642} INFO - Processing file /opt/airflow/dags/etl_crawler_drive.py for tasks to queue
+[2022-02-06 22:03:35,221] {logging_mixin.py:109} INFO - [2022-02-06 22:03:35,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:35,903] {processor.py:654} INFO - DAG(s) dict_keys(['testes_airflow_docker']) retrieved from /opt/airflow/dags/etl_crawler_drive.py
+[2022-02-06 22:03:35,910] {logging_mixin.py:109} INFO - [2022-02-06 22:03:35,909] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-06 22:03:35,923] {logging_mixin.py:109} INFO - [2022-02-06 22:03:35,923] {dag.py:2935} INFO - Setting next_dagrun for testes_airflow_docker to 2022-01-27T00:00:00+00:00
+[2022-02-06 22:03:35,931] {processor.py:171} INFO - Processing /opt/airflow/dags/etl_crawler_drive.py took 0.713 seconds
