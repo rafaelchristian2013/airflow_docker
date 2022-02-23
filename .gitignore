@@ -1,4 +1,6 @@
 __pycache__/
-datalake
-logs
-auxiliary_data
+logs/dag_processor_manager
+logs/testes_dag_airflow_docker
+logs/scheduler
+auxiliary_data/key_id.txt
+auxiliary_data/secret_key.txt
